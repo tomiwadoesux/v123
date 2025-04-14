@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // base is the project root
     "paths": {
-      "@components/@components/*": ["./src/*"]
+      "@/*": ["@/*"]
     }
   }
 }
